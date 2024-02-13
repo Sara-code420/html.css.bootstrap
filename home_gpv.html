@@ -1,0 +1,111 @@
+<!doctype html>
+<!-- 
+Team : Saranya , Danene , Daniel 
+Current Date: 11/20/2023
+File name: template_TP.html
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover modern art and unique furniture at glass Palace Vintage Store. Elevate your spaces with stylish pieces, from sofas to dining sets. Explore our curated collections for unmatched quality and distinctive design. Visit for a unique shopping experience.">
+    
+    <link rel="icon" href="images/gpvFavicon.PNG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/glass-Palace-Vintage.css" >
+    <title>glass Palace Vintage </title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="banner text-center">
+            <h1>glass palace vintage</h1>
+        </div>
+    </div>
+
+    <div class="container-navbar">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          En / Fr
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="home_gpv.html">English</a></li>
+          <li><a class="dropdown-item" href="home-fr_gpv.html">French</a></li>
+          
+        </ul>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Move the "Home" link outside the Navbar-toggler button -->
+          <a id="home-link" class="nav-link active" aria-current="page" href="home_gpv.html">home</a>
+          
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="available_gpv.html">Available</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archive_gpv.html">Archive</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services_gpv.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact_gpv.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <header class="jumbotron">
+      <div class="container-home-content">
+          <h1 class="display-4">Welcome to Glass Palace Vintage</h1>
+          <p class="lead">Discover a world of modern art and unique furniture. Elevate your spaces with our stylish pieces.</p>
+      </div>
+    </header>
+
+    <div class="container-fluid" style="overflow: hidden;">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="images/Available_page1.jpg" class="d-block mx-auto img-fluid" alt="Available Image 1" style="max-width: 50%; height: auto;">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/Available_page3.jpg" class="d-block mx-auto img-fluid" alt="Available Image 3" style="max-width: 50%; height: auto;">
+              </div>
+              <div class="carousel-item">
+                  <img src="images/Available_page4.jpg" class="d-block mx-auto img-fluid" alt="Available Image 4" style="max-width: 50%; height: auto;">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    
+    <footer class="jumbotron-fluid text-center p-5 ">
+
+      <div class="container-footer text-center">
+          <p>&copy; Copyright 2023. All Rights Reserved.</p>
+          <p>Webpage Created by: glass palace vintage</p>
+          <p><a href="mailto:furniture@gpvfurniture.net">furniture@gpvfurniture.net</a></p>
+      </div>
+
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

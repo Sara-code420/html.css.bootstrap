@@ -1,0 +1,92 @@
+<!doctype html>
+<!-- 
+Team: Saranya, Danene, Daniel 
+Current Date: 11/20/2023 
+File name: template_TP.html 
+-->
+<html lang="fr"> <!-- Change the language to French -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Découvrez l'art moderne et les meubles uniques chez Glass Palace Vintage Store. Rehaussez vos espaces avec des pièces élégantes, des canapés aux ensembles de salle à manger. Explorez nos collections soigneusement sélectionnées pour une qualité inégalée et un design distinctif. Visitez-nous pour une expérience de shopping unique.">
+    
+    <link rel="icon" href="images/gpvFavicon.PNG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/glass-Palace-Vintage.css">
+    <title>Glass Palace Vintage</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="banner text-center">
+            <h1>Glass Palace Vintage</h1>
+        </div>
+    </div>
+
+    <div class="container-navbar">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Fr / En
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="home-fr_gpv.html">Français</a></li>
+          <li><a class="dropdown-item" href="home_gpv.html">Anglais</a></li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Move the "Home" link outside the Navbar-toggler button -->
+          <a id="home-link" class="nav-link active" aria-current="page" href="home-fr_gpv.html">accueil</a>
+          
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="available-fr_gpv.html">Disponible</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archive-fr_gpv.html">Archives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services-fr_gpv.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-fr_gpv.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 ">
+            <img src="images/Services_page_image.jpg" class="img-fluid" alt="Image des services">
+          </div>
+          <div class="col-md-6">
+            <h2 id="service-head">Glass Palace Vintage propose les services suivants :</h2>
+            <p>Scénographie</p>
+            <p>Approvisionnement</p>
+            <p>Location de meubles</p>
+            <p>Restauration</p>
+            <a href="contact_gpv.html" class="btn btn-outline-success">Contactez-nous</a>
+          </div>
+        </div>
+    </div>
+
+    <footer class="jumbotron-fluid text-center p-5 ">
+      <div class="container-footer">
+          <p>&copy; Droits d'auteur 2023. Tous les droits sont réservés.</p>
+          <p>Site web créé par : Glass Palace Vintage</p>
+          <p><a href="mailto:furniture@gpvfurniture.net">furniture@gpvfurniture.net</a></p>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

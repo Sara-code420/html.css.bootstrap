@@ -1,0 +1,121 @@
+<!doctype html>
+<!-- 
+Team : Saranya , Danene , Daniel 
+Current Date: 11/20/2023
+File name: template_TP.html
+-->
+<html lang="fr"> <!-- Change the language to French -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Découvrez l'art moderne et les meubles uniques chez Glass Palace Vintage Store. Rehaussez vos espaces avec des pièces élégantes, des canapés aux ensembles de salle à manger. Explorez nos collections soigneusement sélectionnées pour une qualité inégalée et un design distinctif. Visitez-nous pour une expérience de shopping unique.">
+    
+    <link rel="icon" href="images/gpvFavicon.PNG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/glass-Palace-Vintage.css" >
+    <title>Glass Palace Vintage </title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="banner text-center">
+            <h1>Glass Palace Vintage</h1>
+        </div>
+    </div>
+
+    <div class="container-navbar">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          Fr / En
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="home-fr_gpv.html">Français</a></li>
+          <li><a class="dropdown-item" href="home_gpv.html">Anglais</a></li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Move the "Home" link outside the Navbar-toggler button -->
+          <a id="home-link" class="nav-link active" aria-current="page" href="home-fr_gpv.html">Accueil</a>
+          
+          <!-- Navbar toggler button for small screens -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="available-fr_gpv.html">Disponible</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="archive-fr_gpv.html">Archives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services-fr_gpv.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-fr_gpv.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 ">
+            <form>
+                <div class="mb-3">
+                    <label for="contactInputName" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="contactInputName">
+                  </div>
+                  <div class="mb-3">
+                    <label for="contactInputEmail" class="form-label">Adresse e-mail</label>
+                    <input type="email" class="form-control" id="contactInputEmail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre adresse e-mail avec personne d'autre.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="contactInputDescription" class="form-label">Description</label>
+                    <textarea class="form-control" id="contactInputDescription" rows="3"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="howDidYouHear">Comment avez-vous entendu parler de nous ?</label>
+                    <select class="form-select" id="howDidYouHear">
+                      <option selected>Sélectionnez une option</option>
+                      <option value="facebook">Facebook</option>
+                      <option value="instagram">Instagram</option>
+                      <option value="instagram">X</option>
+                      <option value="other">Autre</option>
+                    </select>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Abonnez-vous à nos newsletters</label>
+                </div>
+                <button type="submit" class="btn btn-outline-success">Soumettre</button>
+            </form>
+          </div>
+          <div class="col-md-6" id="contact-section2" >
+            <h6 id="contact-head" >Glass Palace Vintage est une collection de meubles en ligne basée à Montréal, Québec.</h6>
+            <p>Instagram : @glasspalacevintage</p>
+            <p>Pour toute demande de location et toute autre question, n'hésitez pas à nous contacter.</p>
+            
+          </div>
+        </div>
+    </div>
+
+    <footer class="jumbotron-fluid text-center p-5 ">
+
+      <div class="container-footer">
+          <p>&copy; Droits d'auteur 2023. Tous les droits sont réservés.</p>
+          <p>Page web créée par : Glass Palace Vintage</p>
+          <p><a href="mailto:furniture@gpvfurniture.net">furniture@gpvfurniture.net</a></p>
+      </div>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
